@@ -9,12 +9,86 @@
 <body>
 <form method="Get" action="#" name="login" enctype= "multipart/form-data">
 <fieldset>
-<legend> Login</legend>
-<input type="text" name="uname" placeholder="Username" required />
-<br/>
-<input type="password" name="upass" placeholder="Password" required />
-<br/>
-<input type="submit" value="login" name="submit">
+<legend> Registration</legend>
+<table>
+	<tr>
+		<td> Full Name</td>
+		<td>
+			<input type="text" name="uname" required />
+		</td>
+	</tr>
+	<tr>
+		<td> Email</td>
+		<td>
+			<input type="email" name="email" placeholder="you@domain.com" required />
+		</td>
+	</tr>
+	<tr>
+		<td>Password</td>
+		<td>
+			<input type="password" name="upass" required />
+		</td>
+	</tr>
+	<tr>
+		<td> Gender</td>
+		<td> <input type="radio"  value="m" name="gender"> Male
+		 <input type="radio" value="f" name="gender"> Female
+		 <input type="radio" value="o" name="gender"> Others</td>
+	</tr>
+	<tr>
+		<td>City</td>
+		<td>
+		<select name="city" size=1>
+			<optgroup label="State 2">
+				<option value="bhr">Janakpur</option>
+				<option value="bhr">Birgunj</option>
+				<option value="bhr">Bardibas</option>
+			</optgroup>
+			<optgroup label="State 3">		
+				<option value="ktm">Kathmandu</option>
+				<option value="lpt">Lalitpur</option>
+				<option value="bkt">Bhaktapur</option>
+				<option value="bhr">Bharatpur</option>
+			</optgroup>
+			<optgroup label="State 4">	
+				<option value="pkr">Pokhara</option>
+				<option value="dmr">Dumre</option>
+				<option value="ben">Beni</option>
+			</optgroup>
+
+			
+		</select>
+		</td>
+	</tr>
+	<tr>
+		<td>DOB</td>
+		<td><input type="date" name="dob" required /></td>
+	</tr>
+	<tr>
+		<td> Course</td>
+		<td><input type="checkbox" name="php"><lable>PHP</lable>
+			<input type="checkbox" name="asp"><lable>ASP</lable>
+			<input type="checkbox" name="java"><lable>Java</lable>
+
+		</td>
+	</tr>
+	<tr>
+		<td>Photo</td>
+		<td><input type="file" name="photo" required /></td>
+	</tr>
+	<tr>
+		<td>Message</td>
+		<td>
+			<textarea name="message" rows=10 cols=30 placeholder="Message to Hostmaster"></textarea>
+		</td>
+	</tr>
+	<tr>
+	<td></td>
+		<td> <input type="checkbox" name="agree"> I agree to terms and conditions</td>
+	</tr>
+	<tr>
+	<td></td>
+	<td><input type="submit" name="submit"><input type="reset" name="Cancel"></td>
 </fieldset>
 </form>
 </body>
