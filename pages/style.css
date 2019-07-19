@@ -5,6 +5,9 @@
         background-image: url('../images/images/c2_03.png'), url('../images/images/c2_05.png'),url('../images/images/c2_09.png'),url('../images/images/c2_10.png');
         background-position: top left, top right, bottom right, bottom left;
         background-repeat: no-repeat;
+        background-color: #d83939;
+        color:white;
+        text-decoration-color: #17f017;
     } 
 #container{ 
     margin: auto;
@@ -15,6 +18,7 @@
     background-repeat: no-repeat;
     background-position: top-left;
     background-size: corner;
+    
 
 }  
 .greenbg{
