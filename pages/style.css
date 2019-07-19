@@ -1,12 +1,22 @@
 
-/*Universal Selector*/
-*{
-    margin:0; padding:0;
-}   
+ 
     body 
     {
-        background-color: #815f76;
-    }
+        background-image: url('../images/images/c2_03.png'), url('../images/images/c2_05.png'),url('../images/images/c2_09.png'),url('../images/images/c2_10.png');
+        background-position: top left, top right, bottom right, bottom left;
+        background-repeat: no-repeat;
+    } 
+#container{ 
+    margin: auto;
+    width: 960px;
+    min-height:800px;
+    background-image: url('../images/papers.co-vc59-texture-pattern-dark-blue-36-3840x2400-4k-wallpaper.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: top-left;
+    background-size: corner;
+
+}  
 .greenbg{
     background-color: #17f017; border-bottom:4px solid #e72f2f;
 }
