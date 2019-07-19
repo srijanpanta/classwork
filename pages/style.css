@@ -1,0 +1,20 @@
+
+/*Universal Selector*/
+*{
+    margin:0; padding:0;
+}   
+    body 
+    {
+        background-color: #815f76;
+    }
+.greenbg{
+    background-color: #17f017; border-bottom:4px solid #e72f2f;
+}
+.redbg
+{
+    background-color: #325a32; border:2px solid #d83939; border-radius: 9px 9px 20px 20px; 
+}
+#myheading
+{
+    font-variant: small-caps;
+}
