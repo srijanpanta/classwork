@@ -7,13 +7,13 @@
     margin: auto;
     width: 80%;
     min-height:800px;
-    background-image: url('../images/papers.co-vc59-texture-pattern-dark-blue-36-3840x2400-4k-wallpaper.jpg');
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: corner;
 }
     .col100
     {
+        text-align: center;
         width: 100%;
         margin: auto auto;
     }
@@ -26,7 +26,7 @@
     .menu ul{
         list-style-type: none;
         
-        float: right;
+        float: left;
         margin-top: 15px;
     }
     .menu ul li
@@ -45,4 +45,35 @@
         font-size: 20px;
         font-weight: 900;
         font-variant: small-caps;
+    }
+    .col25
+    {
+    
+        width: 24%;
+        margin: auto auto;
+        float: left;
+    }
+    .col33
+    {
+        text-align: center;
+        width: 33%;
+        margin: auto auto;
+        float:left;
+    }
+    .bor1
+    {
+        border: 2px solid black;
+        height: 400px;
+    }
+    .bor2
+    {
+        border: 2px solid black;
+        height: 200px;
+    }
+    .col75
+    {
+    
+        width: 74%;
+        margin: auto auto;
+        float: left;
     }
