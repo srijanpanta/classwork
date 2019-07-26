@@ -1,0 +1,48 @@
+*{
+    margin:0;
+    padding:0;
+}
+#container
+{ 
+    margin: auto;
+    width: 80%;
+    min-height:800px;
+    background-image: url('../images/papers.co-vc59-texture-pattern-dark-blue-36-3840x2400-4k-wallpaper.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: corner;
+}
+    .col100
+    {
+        width: 100%;
+        margin: auto auto;
+    }
+    .menu
+    {
+        width:100%;
+        background-color: rgb(0, 0, 0);
+        min-height: 50px; 
+    }
+    .menu ul{
+        list-style-type: none;
+        
+        float: right;
+        margin-top: 15px;
+    }
+    .menu ul li
+    {
+        
+        padding: 10px;
+        display: inline;
+    }
+    .menu ul li:hover
+    {
+        background-color: aqua;
+    }
+    .menu ul li a{
+        color: rebeccapurple;
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: 900;
+        font-variant: small-caps;
+    }
