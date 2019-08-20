@@ -22,6 +22,7 @@
         width:100%;
         background-color: rgb(0, 0, 0);
         min-height: 50px; 
+        position: fixed;
     }
     .menu ul{
         list-style-type: none;
@@ -77,3 +78,16 @@
         margin: auto auto;
         float: left;
     }
+    @media screen and(max-width:768px)
+    {
+        body
+        {
+            background-color: blanchedalmond;
+        }
+    }
+    @media screen and(max-width:480px)
+    {
+        body{
+            background-color: brown;
+        }
+    }  
