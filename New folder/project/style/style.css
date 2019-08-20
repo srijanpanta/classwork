@@ -1,0 +1,384 @@
+ body {
+     background-color: lightgray;
+ }
+
+
+
+
+
+ /*--img fluid css--*/
+ img {
+     width: 300px;
+ }
+
+
+ /*--main css--*/
+ .orange {
+     font-size: 17px;
+     color: black;
+     width: 60%;
+     margin-right: 10px;
+ }
+
+
+ /*--dropdown--*/
+ .dropdown-menu a:hover {
+     background-color: lightgreen;
+ }
+
+
+ /*--heading css--*/
+ h2 {
+     color: black;
+ }
+
+ h3 {
+     color: black;
+ }
+
+ /*--main css--*/
+ .contact-info {
+     margin-top: -305px;
+     margin-left: 60%;
+     color: black;
+     font-size: 17px;
+
+ }
+
+ .apple {
+     width: 300px;
+     height: 60px;
+     background-color: #7dcc07;
+     padding-top: 15px;
+     text-align: center;
+ }
+
+ /*--img fluid css--*/
+ .image1 > img {
+
+     width: 1050px;
+ }
+
+ /*--main css--*/
+ h6 {
+     font-size: 20px;
+ }
+
+
+ /*--main css--*/
+
+ .train {
+     width: 300px;
+     height: 60px;
+     background-color: #7dcc07;
+     padding-top: 15px;
+     text-align: center;
+     font-size: 30px;
+
+     padding-bottom: 15px;
+
+
+
+ }
+
+ /*--main css--*/
+ p {
+     font-size: 17px;
+     color: black;
+ }
+
+ /*--img css--*/
+ .image2 > img {
+
+     width: 1050px;
+ }
+
+ /*--main css--*/
+ .graph {
+     font-size: 20px;
+     font-weight: 700;
+ }
+
+
+ * {
+     box-sizing: border-box;
+ }
+
+ .column {
+     float: left;
+     width: 33.3%;
+     padding: 5px;
+ }
+
+
+ .row::after {
+     content: "";
+     clear: both;
+     display: table;
+ }
+
+ .gym {
+     width: 300px;
+     height: 60px;
+     background-color: #7dcc07;
+     padding-top: 15px;
+     text-align: center;
+     font-size: 30px;
+     padding-left: 35px;
+     padding-right: 45px;
+     padding-bottom: 15px;
+ }
+
+ .image5 > img {
+
+     width: 1050px;
+ }
+
+ .paragraph1 {
+     font-size: 20px;
+     padding-right: 22px;
+ }
+
+
+ .paragraph2 {
+     padding-right: 22px;
+ }
+
+ .head {
+     width: 300px;
+     height: 60px;
+     background-color: #7dcc07;
+     padding-top: 15px;
+     text-align: center;
+     font-size: 40px;
+     padding-left: 15px;
+     padding-right: 45px;
+
+
+ }
+
+ .image6 > img {
+
+     width: 1050px;
+
+ }
+
+ .paragraph3 {
+     padding-right: 22px;
+     font-size: 20px;
+
+ }
+
+ .paragraph4 {
+     padding-right: 100px;
+     text-align: justify;
+ }
+
+ .fit {
+     width: 300px;
+     height: 60px;
+     background-color: #7dcc07;
+     padding-top: 1px;
+     text-align: center;
+     font-size: 40px;
+     padding-left: 15px;
+     padding-right: 45px;
+
+ }
+
+
+ .image7 > img {
+     width: 1050px;
+ }
+
+ .paragraph5 {
+     padding-right: 100px;
+     text-align: justify;
+ }
+
+ /*--contact form css--*/
+
+ #contact-form {
+
+     padding-left: 100px;
+     padding-right: 400px;
+     margin-left: 200px;
+     padding-top: 50px;
+ }
+
+ textarea {
+     resize: none;
+
+ }
+
+
+ .form-label {
+     font-size: 12px;
+     color: black;
+     margin: 0;
+     display: block;
+     opacity: 1;
+     -webkit-transition: .333s ease top, .333s ease opacity;
+     transition: .333s ease top, .333s ease opacity;
+ }
+
+
+ .form-control {
+     border-radius: 0;
+     border-color: #ccc;
+     border-width: 0 0 2px 0;
+     border-style: none none solid none;
+     box-shadow: none;
+ }
+
+
+ .form-control:focus {
+     box-shadow: none;
+     border-color: #5e9bfc;
+ }
+
+
+ .js-hide-label {
+     opacity: 0;
+ }
+
+
+ .js-unhighlight-label {
+     color: #999
+ }
+
+ .btn-start-order {
+     background: 0 0 #ffffff;
+     border: 1px solid #2f323a;
+     border-radius: 3px;
+     color: #2f323a;
+     font-family: "Raleway", sans-serif;
+     font-size: 16px;
+     line-height: inherit;
+     margin: 30px 0;
+     padding: 10px 50px;
+     text-transform: uppercase;
+     transition: all 0.25s ease 0s;
+ }
+
+ .btn-start-order:hover,
+ .btn-start-order:active,
+ .btn-start-order:focus {
+     border-color: #5e9bfc;
+     color: #5e9bfc;
+ }
+
+ /*--footer css--*/
+
+ #myFooter {
+     padding-top: 32px;
+ }
+
+ #myFooter .container {
+     text-align: center;
+ }
+
+ #myFooter .footer-copyright {
+     margin-bottom: 35px;
+     text-align: center;
+     color: #777;
+ }
+
+ #myFooter ul {
+     list-style-type: none;
+     padding: 0;
+     margin-bottom: 18px;
+ }
+
+ #myFooter a {
+     color: #282b2d;
+     font-size: 18px;
+ }
+
+ #myFooter li {
+     display: inline-block;
+     margin: 0px 15px;
+     line-height: 2;
+ }
+
+ #myFooter .footer-social {
+     text-align: center;
+     padding-top: 25px;
+     padding-bottom: 35px;
+     background-color: #eee;
+ }
+
+ #myFooter .fa {
+     font-size: 36px;
+     margin-right: 15px;
+     margin-left: 20px;
+     background-color: white;
+     color: #d0d0d0;
+     border-radius: 51%;
+     padding: 10px;
+     height: 60px;
+     width: 60px;
+     text-align: center;
+     line-height: 43px;
+     text-decoration: none;
+     transition: color 0.2s;
+ }
+
+ #myFooter .fa-facebook:hover {
+     color: #2b55ff;
+ }
+
+ #myFooter .fa-facebook:focus {
+     color: #2b55ff;
+ }
+
+ #myFooter .fa-google-plus:hover {
+     color: red;
+ }
+
+ #myFooter .fa-google-plus:focus {
+     color: red;
+ }
+
+ #myFooter .fa-twitter:hover {
+     color: #00aced;
+
+ }
+
+ #myFooter .fa-twitter:focus {
+     color: #00aced;
+ }
+
+
+
+ /* footer CSS used for positioning the footers at the bottom of the page. */
+
+
+ html {
+     height: 100%;
+ }
+
+ body {
+     display: flex;
+     display: -webkit-flex;
+     flex-direction: column;
+     -webkit-flex-direction: column;
+     height: 100%;
+ }
+
+ .content {
+     flex: 1 0 auto;
+     -webkit-flex: 1 0 auto;
+     min-height: 200px;
+ }
+
+ #myFooter {
+     flex: 0 0 auto;
+     -webkit-flex: 0 0 auto;
+ }
+
+ /*--google map--*/
+
+ .map {
+     margin-left: 300px;
+ }
