@@ -7,7 +7,7 @@
 		var mt=d.getMonth();
 		var year=d.getFullYear();
 
-		if(day==0) day="sunday";
+	if(day==0) day="sunday";
 	else if(day==1) day="monday";
 	else if(day==2) day="tuesday";
 	else if(day==3) day="wednesday";
@@ -45,5 +45,17 @@
 	function refreshTime()
 	{
 		setInterval(currentTime, 1000);
+	}
+	function validateForm()
+	{
+		var username=document.login.uname.value;
+		var password=document.login.upass.value;
+
+		if(username=="" && password=="")
+		{
+			document.getElementById('error').innerHTML="Username and Password is Required";
+			return false;
+		}
+		return false;
 	}
 }

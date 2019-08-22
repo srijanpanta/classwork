@@ -1,0 +1,96 @@
+   * {
+       text-decoration: none;
+   }
+   
+   .navbar {
+       width: 100%;
+       padding: 20px;
+       position: fixed;
+       top: 0px;
+       text-align: center;
+       transition: .5s;
+       z-index: 1;
+   }
+   
+   .navbar ul li {
+       list-style-type: none;
+       display: inline-block;
+       padding: 10px 50px;
+       color: white;
+       font-size: 24px;
+       font-family: sans-serif;
+       cursor: pointer;
+       border-radius: 10px;
+       transition: .5s;
+   }
+   
+   .navbar ul li:hover {
+       background: orange;
+   }
+   
+   * {
+       box-sizing: border-box;
+   }
+   
+   #background-video {
+       width: 100%;
+       height: 750px;
+       z-index: -1;
+   }
+   
+   ul li {
+       display: inline-block;
+   }
+   
+   ul li a {
+       text-decoration: none;
+       color: #fff;
+       padding: 5px 20px;
+       border: 1px solid transparent;
+       transition: 0.5s ease;
+   }
+  
+   
+   ul li.active a {
+       background-color: #fff;
+       color: #000;
+   }
+   
+   body {
+       margin: 0;
+       font-family: Arial;
+       font-size: 17px;
+   }
+   
+   #myVideo {
+       right: 0;
+       bottom: 0;
+       width: 100%;
+       height: 100%;
+       background-size: cover;
+       object-fit: fill;
+   }
+   
+   .content {
+       position: absolute;
+       bottom: 0;
+       background: rgba(0, 0, 0, 0.5);
+       color: #f1f1f1;
+       width: 100%;
+       padding: 20px;
+   }
+   
+   #myBtn {
+       width: 200px;
+       font-size: 18px;
+       padding: 10px;
+       border: none;
+       background: #000;
+       color: #fff;
+       cursor: pointer;
+   }
+   
+   #myBtn:hover {
+       background: #ddd;
+       color: black;
+   }

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>About</title>
+  <link rel="stylesheet" type="text/css" href="about.css">
+</head>
+
+<body>
+  <header>
+    <div class="header">
+
+      <div class="navbar" id='nav'>
+        <ul>
+          <li><a href="index-home.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="third.html">Image</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+          <li><a href="fourth.html">Login</a></li>
+        </ul>
+
+      </div>
+
+    </div>
+  </header>
+
+  <div id="background-video">
+    <video autoplay muted loop id="myVideo">
+
+      <source src="jordan.mp4" type="video/mp4">
+      Your browser does not support HTML5 video.
+    </video>
+  </div>
+  <div class="content">
+    <h1>Air Jordan 32</h1>
+    <p>The low version of the Air Jordan 32 offers slightly improved traction and the same premium materials and comfortable cushioning as the mid. ... Overall, this is a great shoe for fans of the Jordan 32 that prefer the freedom and flexibility of a low-top basketball shoe..</p>
+    <button id="myBtn" onclick="myFunction()">Pause</button>
+  </div>
+  <script>
+    var video = document.getElementById("myVideo");
+    var btn = document.getElementById("myBtn");
+
+    function myFunction() {
+      if (video.paused) {
+        video.play();
+        btn.innerHTML = "Pause";
+      } else {
+        video.pause();
+        btn.innerHTML = "Play";
+      }
+    }
+  </script>
+  <script type="text/javascript">
+
+    var nav = document.getElementById('nav');
+
+    window.onscroll = function () {
+
+      if (window.pageYOffset > 100) {
+
+        nav.style.background = "#CBCACA";
+        nav.style.boxShadow = "0px 4px 2px grey";
+      }
+      else {
+        nav.style.background = "transparent";
+        nav.style.boxShadow = "none";
+      }
+    }
+
+
+
+  </script>
+</body>
+
+</html>

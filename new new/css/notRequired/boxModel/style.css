@@ -1,0 +1,32 @@
+/* General styles */
+body {
+  margin: 0;
+}
+
+#wrapper header,#wrapper main, #wrapper footer {
+  padding: 20px;
+  font-size: 20px;
+  border: 20px solid rgba(0,0,0,0.5);
+  height : 2.5em;
+ 
+}
+
+/* specific boxes */
+
+#wrapper header, #wrapper footer {
+  background-color: blue;
+  color: white;
+}
+
+#wrapper main {
+  background-color: yellow;
+  overflow: hidden;
+}
+
+#wrapper header {
+    overflow: auto;
+}
+
+#wrapper footer {
+    overflow:visible;
+}
